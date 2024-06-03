@@ -1,6 +1,6 @@
 package twelveApril;
 
-public class DuplicatefindfromStringArray1 {
+public class DuplicatefindfromINTArray1 {
 
 	
 	public static void main(String[]array) {

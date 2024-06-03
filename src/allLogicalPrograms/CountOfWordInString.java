@@ -1,8 +1,8 @@
-package hashmap;
+package allLogicalPrograms;
 
 import java.util.HashMap;
 
-public class Hashmap3 {
+public class CountOfWordInString {
 
 	
 	public static void main(String[] args)

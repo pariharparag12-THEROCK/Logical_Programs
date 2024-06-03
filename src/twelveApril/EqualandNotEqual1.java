@@ -20,6 +20,8 @@ public class EqualandNotEqual1 {
 		System.out.println(p==q); // true
 		
 		System.out.println(q==k); //false
+		
+		System.out.println(p.equals(k)); //True
 	}
 	
 	

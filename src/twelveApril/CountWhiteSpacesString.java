@@ -22,7 +22,9 @@ public class CountWhiteSpacesString {
 					
 					if(sentence.charAt(i) == ' ') {
 						
-						s = s+1;
+						s = s+1;//
+						
+						sentence.charAt(i);
 					}
 					
 					

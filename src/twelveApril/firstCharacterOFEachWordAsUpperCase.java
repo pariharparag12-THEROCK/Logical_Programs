@@ -14,15 +14,15 @@ public class firstCharacterOFEachWordAsUpperCase {
 		String	parts[]	 =	sentence.split(" ");
 		
 		
-		String newString = "";
+		String str = "";
 		
 		for (int i=0; i<=parts.length-1; i++) {
 			
-			String firstCharacter =  parts[i].substring(0, 1);
+			String firstCharacter = str+ parts[i].substring(0,1);
 			
-			String remainingCharcters	= parts[i].substring(1);
+			String remainingCharcters	= str+ parts[i].substring(1);
 			
-			newString =   firstCharacter.toUpperCase() + remainingCharcters;
+			String newString =   firstCharacter.toUpperCase() + remainingCharcters;
 			
 			System.out.print(newString + " ");
 			

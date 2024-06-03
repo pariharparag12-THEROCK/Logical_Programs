@@ -14,7 +14,7 @@ public class Anagram1 {
 		
 		
 		char c[] =	 a.toCharArray();
-		char d[] = 		b.toCharArray();
+		char d[] = 	 b.toCharArray();
 		
 		Arrays.sort(c);
 		Arrays.sort(d);
