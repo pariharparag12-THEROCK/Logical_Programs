@@ -1,17 +1,12 @@
-package allLogicalPrograms;
+package june4;
 
+public class FirstCharacterOfEachWordUsedAsJava {
 
-
-public class firstCharacterOFEachWordAsUpperCase {
-
-	
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		
 		String sentence = "java and manual";
 		
-		System.out.println(sentence);
-		
-		String	parts[]	 =	sentence.split(" ");
+		String parts[] = sentence.split(" ");
 		
 		
 		String newSentence="";
@@ -27,10 +22,7 @@ public class firstCharacterOFEachWordAsUpperCase {
 			System.out.print(newSentence +" ");
 			
 		}
-		
-		
-		
-		}
-		
-	
+
+	}
+
 }

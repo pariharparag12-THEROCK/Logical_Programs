@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class CountOfCharacterInString {
+public class CountNumberOfCharacterInString3way {
 	
 	public static void main (String []args) {
 		 

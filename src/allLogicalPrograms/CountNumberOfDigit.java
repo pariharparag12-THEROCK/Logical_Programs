@@ -6,7 +6,7 @@ public class CountNumberOfDigit {
 		
 		int n = 703832;
 		
-		int temp = n;
+		/*int temp = n;
 		
 		int count =0;
 		
@@ -22,7 +22,17 @@ public class CountNumberOfDigit {
 		}
 		
 		
-		System.out.println("Number of Count in digit "+ temp+" is : "+count);
+		System.out.println("Number of Count in digit "+ temp+" is : "+count);*/
+		
+		
+		// Another way
+		int f[] = new int [n] ;
+		
+		
+		String h=	f.toString();
+		
+		System.out.println(h.charAt(1));
+		
 	}
 
 }
