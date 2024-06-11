@@ -26,6 +26,8 @@ public class firstCharacterOFEachWordAsUpperCase {
 			
 			System.out.print(newSentence +" ");
 			
+			//newSentence="";
+			
 		}
 		
 		

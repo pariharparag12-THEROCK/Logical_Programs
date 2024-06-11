@@ -1,4 +1,4 @@
-package june4;
+package allLogicalPrograms;
 
 public class SumOfDigitsInString {
 
