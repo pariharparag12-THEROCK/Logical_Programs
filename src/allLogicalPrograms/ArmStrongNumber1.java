@@ -6,13 +6,15 @@ public class ArmStrongNumber1 {
 
 	public static void main(String[] args) {
 	
-		int n;
+		//int n;
 		
-		Scanner orv = new Scanner(System.in);
+		for (int n=11; n<=1000; n++) {
 		
-		System.out.println("Enter a number");
+		//Scanner orv = new Scanner(System.in);
 		
-		n = orv.nextInt();
+		//System.out.println("Enter a number");
+		
+		//n = orv.nextInt();
 		
 		int temp = n;
 		int s = 0;
@@ -27,11 +29,15 @@ public class ArmStrongNumber1 {
 		}
 		
 		if (n==s) {
-			System.out.println("Given number is Arm Strong "+s);
+			System.out.print(s+" ");
 		}
 		
-		else {
-			System.out.println("Given number is not Arm Strong"+s);
+//		else {
+//			System.out.println("Given number is not Arm Strong"+s);
+//		}
+		
+		
+		//orv.close();
 		}
 
 	}

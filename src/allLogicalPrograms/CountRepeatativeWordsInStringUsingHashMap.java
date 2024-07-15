@@ -33,6 +33,19 @@ public class CountRepeatativeWordsInStringUsingHashMap {
 		
 		
 		System.out.println(hashMap);
+		
+		
+		
+
+		//System.out.println(hashmap.keySet());
+		
+		for (String word: hashMap.keySet()) {
+			
+			if ((hashMap.get(word))>1) {
+				
+				System.out.println(word + " : " + hashMap.get(word));
+			}
+		}
 
 	}
 

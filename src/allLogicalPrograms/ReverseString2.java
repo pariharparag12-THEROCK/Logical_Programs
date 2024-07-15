@@ -11,7 +11,7 @@ public class ReverseString2 {
 		
 		String reverse = "";
 		
-		for (int i=sentence.length()-1; i>=0; i--) {
+		for (int i=S.length-1; i>=0; i--) {
 			
 			reverse = reverse + S[i];
 			
