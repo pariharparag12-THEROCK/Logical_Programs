@@ -10,19 +10,18 @@ public class CountNumberOfDigit {
 		
 		int count =0;
 		
-		int t;
 		
 		
-		while(n>0) {
+		while(temp>0) {
 			
-			n = n/10; //70383, 7038, 703, 70, 7, 0
+			temp = temp/10; //70383, 7038, 703, 70, 7, 0
 			
 			count = count+1; //1, 2, 3, 4, 5, 6
 			
 		}
 		
 		
-		System.out.println("Number of Count in digit "+ temp+" is : "+count);
+		System.out.println("Number of Count in digit "+ n+" is : "+count);
 		
 		
 		 

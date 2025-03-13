@@ -1,4 +1,4 @@
-package allLogicalPrograms;
+  package allLogicalPrograms;
 
 public class Prime1qq {
 

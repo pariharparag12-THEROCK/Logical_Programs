@@ -1,4 +1,4 @@
-package allLogicalPrograms;
+ package allLogicalPrograms;
 
 import java.util.Arrays;
 

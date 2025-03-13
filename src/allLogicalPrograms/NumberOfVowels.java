@@ -12,7 +12,7 @@ public class NumberOfVowels {
 		
 		int count = 0;
 		
-		for (int i=0; i<=sentence.length()-1; i++) {
+		for (int i=0; i<=s.length-1; i++) {
 			
 	
 			switch(s[i]) {

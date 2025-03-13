@@ -38,9 +38,9 @@ public class Hashmap2 {
 		
 		for(Entry<Integer, String>  m  : myset) {
 			
-			//System.out.println(m);
-			//System.out.println(m.getValue()); //It is used to get particular value of that key.
-			System.out.println(m.getKey());	//It is used to get particular kay of that value.
+			System.out.println(m);
+//			System.out.println(m.getValue()); //It is used to get particular value of that key.
+//			System.out.println(m.getKey());	//It is used to get particular kay of that value.
 		}
 		
 		

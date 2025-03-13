@@ -19,7 +19,7 @@ public class Hashmap1 {
 		System.out.println(mp.put(2, "Rahim"));
 		System.out.println(mp.put(1, "Ram"));
 		System.out.println(mp.put(3, "ABC"));
-		System.out.println(mp.put(1, "laxman"));  //Ram (previous print krega humne put kiya he toh
+		System.out.println(mp.put(1, "laxman"));  //Ram (previous jo store hoga vo print krega humne put kiya he toh
 		System.out.println(mp.put(3, "XYZ")); //ABC
 		
 		System.out.print(mp); // Overide krk latest show krega beacuse key always unique,  value can be duplicate so it will remove

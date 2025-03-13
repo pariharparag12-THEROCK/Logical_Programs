@@ -15,10 +15,8 @@ public class Program1 {
 		                
 		                if ((num[i]+num[j]) == target){
 		                    
-		                    System.out.println("The numbers whose sum are equals to target : "+ num[i] +" and "+ num[j]);
-		                    
-		                    System.out.println(num[i]+ " present at index : "+ i+"\n"+
-		                    num[j]+" present at index: "+ j);
+		                	System.out.println("The Two Numbers whose sum are equals to target are : " + num[i]+ " and "+ num[j]);
+		        			System.out.println(num[i]+" is present at place : "+ i +" \n"+num[j]+" is present at place : "+j);
 		                }
 		                
 		            }

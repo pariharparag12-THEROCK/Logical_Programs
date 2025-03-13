@@ -3,7 +3,7 @@ package allLogicalPrograms;
 import java.util.Arrays;
 import java.util.TreeSet;
 
-public class SortingInAssendingOrder {
+public class SortingInAssendingOrderAndRemoveDuplicates {
 
 	
 	public static void main(String[]args) {

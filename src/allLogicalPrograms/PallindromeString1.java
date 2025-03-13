@@ -13,11 +13,11 @@ public class PallindromeString1 {
 			
 			newString = newString +	word.charAt(i);
 			
-		System.out.print(newString);
-			
-			newString ="";
 		}
+			
 		
+		System.out.print(newString);
+		System.out.println();
 		
 		if (newString.equals(word)) {
 			

@@ -1,4 +1,4 @@
-package allLogicalPrograms;
+ package allLogicalPrograms;
 
 import java.util.Scanner;
 
@@ -22,6 +22,8 @@ public class Panagram1 {
 		
 		String s = "";
 		
+		int count =0;
+		
 		for (char i='a'; i<='z'; i++) {
 			
 			
@@ -29,6 +31,7 @@ public class Panagram1 {
 				
 				s =s+i;
 				
+				count=count+1;
 			}
 		
 			//System.out.println(s);
@@ -38,11 +41,11 @@ public class Panagram1 {
 		
 		if (s.length()==26) {
 			
-			System.out.println("Given String is Pangram");
+			System.out.println("Given String is Pangram: "+s+" and count is : "+count);
 		}
 		
 		else {
-			System.out.println("Given String is not Pangram");
+			System.out.println("Given String is not Pangram: "+s+" and count is : "+count);
 		}
 		
 		

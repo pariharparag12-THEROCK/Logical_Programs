@@ -1,4 +1,4 @@
-package allLogicalPrograms;
+  package allLogicalPrograms;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -43,6 +43,6 @@ public class CountNumberOfCharacterInString2Way {
 			
 		}
 		
-		
+		//date 23 march
 	}
 }

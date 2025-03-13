@@ -26,14 +26,14 @@ public class FindDuplicatefromString1 {
 		
 		System.out.println();
 		
-//		LinkedHashSet lhs = new LinkedHashSet();
-//		
-//		for (int i=0; i<=s.length-1; i++) {
-//			
-//			lhs.add(s[i]);
-//		}
-//		
-//		System.out.println(lhs);
+		LinkedHashSet lhs = new LinkedHashSet();
+		
+		for (int i=0; i<=s.length-1; i++) {
+			
+			lhs.add(s[i]);
+		}
+		
+		System.out.println(lhs);
 
 	}
 
