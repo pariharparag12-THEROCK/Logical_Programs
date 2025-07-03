@@ -17,17 +17,17 @@ public class NumberOfVowels {
 	
 			switch(s[i]) {
 			
-			case ('a'): System.out.print(s[i]+" ");  count++; break;
-			
-			case ('e'): System.out.print(s[i]+" ");  count++; break;
-			
-			case ('i'): System.out.print(s[i]+" ");  count++; break;
-				
-			case ('o'): System.out.print(s[i]+" ");  count++; break;
-				
-			case ('u'): System.out.print(s[i]+" ");  count++; break;
-			
-			default: break;
+						case ('a'): System.out.print(s[i]+" ");  count++; break;
+						
+						case ('e'): System.out.print(s[i]+" ");  count++; break;
+						
+						case ('i'): System.out.print(s[i]+" ");  count++; break;
+							
+						case ('o'): System.out.print(s[i]+" ");  count++; break;
+							
+						case ('u'): System.out.print(s[i]+" ");  count++; break;
+						
+						default: break;
 			
 			}
 			

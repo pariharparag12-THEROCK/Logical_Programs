@@ -22,7 +22,7 @@ public class firstCharacterOFEachWordAsUpperCase {
 			
 			String remainingCharacters =	parts[i].substring(1);
 			
-			newSentence = firstCharacter.toUpperCase() +remainingCharacters;
+			newSentence = newSentence + firstCharacter.toUpperCase() +remainingCharacters;
 			
 			System.out.print(newSentence +" ");
 			

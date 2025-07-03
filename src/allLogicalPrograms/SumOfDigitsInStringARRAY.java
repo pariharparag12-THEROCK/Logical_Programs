@@ -21,9 +21,10 @@ public class SumOfDigitsInStringARRAY {
 	    	 if(a[i]>=0 && a[i]<=10) {
 	    		 
 	    		 count = count + 1;
+	    		 sum = sum+a[i];
 	    	 }
 	    	 
-	    	 sum = sum+a[i];
+	    	 
 	    	 
 	     }
 	     

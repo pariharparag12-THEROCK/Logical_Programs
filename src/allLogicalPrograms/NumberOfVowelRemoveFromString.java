@@ -27,29 +27,36 @@ public class NumberOfVowelRemoveFromString {
 		System.out.println(s);
 		System.out.println(s.length());
 		
+		
+		
+		System.out.println();
+		
+		
+		String sentence1 = "life is a beautiful enjoys it";
+	    
+	    char S[]  =  sentence1.toCharArray();
+	    
+	    for (int i=0; i<=S.length-1; i++){
+	        
+	        if(S[i]=='a' || S[i]=='e' || S[i]=='i' || S[i]=='o' || S[i]=='u'){
+	            
+	            continue;
+	        }
+	        
+	        else{
+	            System.out.print(S[i]+" ");
+	            
+	        }
+	        
+	        
+	        
+	    }
+		
+	
+
+		
 	}
 	
-	/*
-	String sentence = "life is a beautiful enjoys it";
-    
-    char s[]  =  sentence.toCharArray();
-    
-    for (int i=0; i<=s.length-1; i++){
-        
-        if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u'){
-            
-            continue;
-        }
-        
-        else{
-            System.out.print(s[i]+" ");
-            
-        }
-        
-        
-        
-    }
 	
-	*/
 
 }

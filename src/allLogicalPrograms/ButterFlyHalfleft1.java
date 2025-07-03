@@ -12,7 +12,7 @@ public class ButterFlyHalfleft1 {
 			}
 			
 			for(int k=4; k>=i; k--) {
-				System.out.print(" ");
+				System.out.print("4");
 			}
 			
 			System.out.println();

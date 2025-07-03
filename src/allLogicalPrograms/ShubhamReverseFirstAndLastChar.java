@@ -20,9 +20,9 @@ public class ShubhamReverseFirstAndLastChar {
 	
 	public static void reverseFirstAndLastCharacter(char ch[]) {
 		
-		int start = 1;
+		int start = 0;
 		
-		int end = ch.length-2;
+		int end = ch.length-1;
 		
 		char temp = ch[end];
 		

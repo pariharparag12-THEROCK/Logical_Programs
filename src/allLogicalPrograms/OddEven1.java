@@ -25,6 +25,7 @@ public class OddEven1 {
 			System.out.println(n +" the number is odd number");
 		}
 		
+		orv.close();
 		
 	}
 }

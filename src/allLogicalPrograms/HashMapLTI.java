@@ -34,6 +34,11 @@ public class HashMapLTI {
 			System.out.println(m.getKey() + " : "+ m.getValue());
 		}
 			
+		
+		for (Entry<String, Integer> m :myset)	{
+			
+			System.out.println(m);
+		}
 			
 	}
 		
